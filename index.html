@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <style>
+            body{
+                color: #222;
+            }
+            .navigation{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                font-size: 14px;
+                letter-spacing: .25px;
+                line-height: 16px;
+                margin-left: 10px;
+                margin-right: 8px;
+                min-width: 96px;
+                min-height: 48;
+                font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+                                font-weight: 500;
+                text-align: center;
+                vertical-align: middle;
+            }
+            #nav_signin{
+                background-color:#2b7de9;
+                
+                padding: 9px 23px;
+                margin-left: 10px;
+                margin-right: 8px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                min-height: 36px;
+                min-width: 96px;
+                
+            }
+            .nav_item a{
+                color:rgba(0,0,0,0.87);
+                text-decoration: none;
+                min-height: 24px;
+            }
+
+            #signin{
+                color: #fff;
+            }
+
+           
+            #logo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;  
+                min-height: 92px;
+               
+            }
+            #search_form{
+                display: flex;
+                
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;  
+                padding: 20px;
+                margin: 0 auto;
+                box-sizing: border-box;
+                
+            }
+
+            #search_form form{
+                width: 100%;
+            }
+
+            #search_box_container{
+                display: flex;
+                justify-content: center;
+            }
+            
+            #search_box{
+                display: flex;
+                width: 100%;
+                border: 1px solid #dfe1e5;
+                border-radius: 24px;
+                max-width: 584px;
+                height: 44px;
+        
+            }
+
+            #buttons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .button{
+                background-color: #f8f9fa;
+border: 1px solid #dadce0;
+color: #202124;
+border-radius: 4px;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+            }
+
+            #google-offered{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 28px;
+                font-size: small;
+                text-align: center;
+                font-family: arial,sans-serif;
+                color: #222;
+                margin-bottom: 24px;
+
+            }
+
+            footer{
+                background: #f2f2f2;
+                font-size: 15px;
+color: rgba(0,0,0,.54); 
+height: 100%;
+            }
+            #ctry{
+                padding: 15px 30px;
+border-bottom: 1px solid #dadce0;
+
+            }
+
+            #others{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content:center;
+               
+            }
+            #st{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            #nd{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <div class="navigation">
+            <div class = "nav_item" id="nav_gmail" style="padding-left: 15px; ">
+                <a id="gmail" href="#" color: rgba(0,0,0,0.87);>Gmail</a>
+            </div>
+            <div id="nav_image" class = "nav_item" style="padding-left: 15px; ">
+                <a id="image" href="#">Image</a>
+            </div>
+            <div class = "nav_item" id="nav_all" style="padding-left: 15px; color: rgba(0,0,0,0.87);">
+                <a id="all" href="#">All</a>
+            </div>
+            <div id="nav_signin" class = "nav_item" style="padding-left: 15px; color: rgba(0,0,0,0.87);">
+                <a id="signin" href="#">Sign In</a>
+            </div>
+        </div>
+        </header>
+        <main>
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo">
+            </div>
+            <div id="search_form">
+                <form >
+                    <div id="search_box_container">
+                    <div id="search_box"></div>
+                </div>
+                        <br/>
+                        <div id="buttons">
+                    <input class="button" type="button" id="search_button" value="Search">
+                    <input type="button" class="button" id="lucky_button" value="I'm Feeling Lucky">
+                         </div>  
+                </form>
+            </div>
+            <div id = "google-offered">
+                <div id = "gotext">
+                <p>Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
+            </div>
+        </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div id = "ctry">
+                    India
+                </div>
+                <div id = "others">
+                    <div id="st">
+                        About   Advertising Business    How Search works 
+                    </div>
+                    <div id="nd">
+                        Privacy Terms   Settings
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

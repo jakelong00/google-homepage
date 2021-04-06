@@ -1,1 +1,1 @@
-A sample project to create a copy of google home page with no functionalities
+A sample project to create a copy of google home page with no functionalities   
